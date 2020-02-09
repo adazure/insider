@@ -1,0 +1,15 @@
+@import './extend.scss';
+.btn {
+  border-radius: 5px;
+  position: relative;
+  &-middle {
+    min-height: 35px;
+  }
+  &-orange{
+    color:white;
+    background-color:$color_orange;
+  }
+  &:active{
+    top:1px;
+  }
+}

@@ -1,0 +1,55 @@
+body,
+html {
+  margin: 0;
+}
+*{
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+label,
+span,
+div,
+input,
+button,
+textarea,
+select,
+ul {
+  outline: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#app{
+}
+
+.container{
+  margin:100px auto;
+}
+
+.flex{
+  display: flex;
+  &.column{
+    flex-direction: column;
+  }
+  &.justify-between{
+    justify-content: space-between;
+  }
+  &.items-center{
+    align-items: center;
+  }
+}
+
+.control{
+  width:100%;
+  border:0;
+  padding:4px 10px;
+}
+
+.mb-10{
+  margin-bottom: 10px;
+}

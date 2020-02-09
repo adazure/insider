@@ -1,0 +1,42 @@
+@import '../../sass/extend.scss';
+
+.header-score-text {
+  max-width: 150px;
+
+  span {}
+
+  label {}
+}
+
+.area {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @extend .bg-color-sky;
+  padding: 10px 10px;
+  border-bottom: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.user-controls {
+  >div {
+    margin: 0 5px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &-button {
+    padding: 0;
+    max-width: 100px;
+    button{
+      color:white;
+    }
+  }
+}
